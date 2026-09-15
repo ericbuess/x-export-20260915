@@ -1,0 +1,77 @@
+{
+  "idem": "card-digest-20260915-001",
+  "date": "2026-09-15",
+  "generated": "2026-09-15T13:15:00Z",
+  "kind": "notes-digest",
+  "account": "EricBuess",
+  "source": "web-search + primary pages, Grok Chat seat",
+  "pool_reading": {
+    "source": "Bob 2026-09-15 this-turn briefing",
+    "observed_at": "2026-09-15T13:15:00Z",
+    "super_grok_heavy_remaining_pct": 100,
+    "super_grok_heavy_reset": "2026-09-22T12:59:00Z",
+    "grok_bot_weekly_reset": "2026-09-16T18:06:00Z",
+    "pace": "BEHIND"
+  },
+  "limitations": [
+    "Sourced public reporting, not original reporting.",
+    "Quotes are paraphrased from the named pages; open the URL for the exact wording.",
+    "Not an endorsement of any lab, party, or proposal."
+  ],
+  "items": [
+    {
+      "id": "2026-09-15-russell-guardian",
+      "title": "Stuart Russell: pacing capability is not enough",
+      "date": "2026-09-15",
+      "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
+      "categories": ["safety-argument", "alignment-hypothesis"],
+      "summary": "Russell answers Amodei's 'We Must Pace the Frontier' the morning after it landed. He grants the three-part plan exists, then argues a slower capability rate does not by itself produce safety: interpretability, alignment, and testing still have to work.",
+      "why_it_matters": "The Notes page should carry the first serious public critique of the pacing essay, not only the essay."
+    },
+    {
+      "id": "2026-09-15-deseret-contingency",
+      "title": "Controls plus a worst-case contingency plan",
+      "date": "2026-09-15",
+      "url": "https://www.deseret.com/opinion/2026/09/15/ai-frontier-anthropic-dario-amodei-congress/",
+      "categories": ["safety-argument", "fleet-and-tools"],
+      "summary": "Opinion piece treats the Amodei/Altman/Musk/Hassabis public alignment as real and unprecedented, then asks Congress for a contingency plan beyond embedded evaluators. Cites the Hugging Face agent-swarm incident as the kind of event a pace agreement must survive.",
+      "why_it_matters": "Connects the pacing letter to a concrete failure mode Eric already writes about: agent swarms that coordinate."
+    },
+    {
+      "id": "2026-09-14-amodei-essay",
+      "title": "Amodei: embedded evaluators, then democratic coordination, then a global compact",
+      "date": "2026-09-12",
+      "url": "https://www.darioamodei.com/post/we-must-pace-the-frontier",
+      "categories": ["safety-argument"],
+      "summary": "Primary source. Anthropic unilaterally commits to third-party evaluators with employee-like access (METR named as an example). Steps two and three are industry and international coordination, not yet a signed pact.",
+      "why_it_matters": "This is the text Figure A and the essays index will keep pointing at. Use the primary URL, not a recap."
+    },
+    {
+      "id": "2026-09-14-altman-commit",
+      "title": "Altman commits OpenAI to employee-like evaluator access",
+      "date": "2026-09-12",
+      "url": "https://x.com/sama/status/2098811563415150910",
+      "categories": ["safety-argument"],
+      "summary": "Altman: independent evaluators with employee-like access is a great idea and OpenAI will do the same. More to share soon. This is a public commitment, not a published access protocol.",
+      "why_it_matters": "Figure A OpenAI chip now has a dated public hook (Sept 2026)."
+    },
+    {
+      "id": "2026-09-14-standards-body",
+      "title": "Anthropic, OpenAI, Google working groups on an industry standards body since July",
+      "date": "2026-09-13",
+      "url": "https://aiweekly.co/alerts/anthropic-openai-google-meet-since-july-on-ai-standards-body",
+      "categories": ["safety-argument", "hardening"],
+      "summary": "The Information (via AI Weekly): working groups below CEO level have met since July on a labs-led testing/auditing body. Altman reportedly prefers this without federal backing; Amodei has leaned toward government partnership. Not a signed charter.",
+      "why_it_matters": "Separates the public letter from the quieter, older coordination track."
+    },
+    {
+      "id": "2026-09-14-wsj-clash",
+      "title": "WSJ: money-vs-safety clash inside the labs, then a public truce",
+      "date": "2026-09-14",
+      "url": "https://www.tradingview.com/news/DJN_DN20260913000660:0/",
+      "categories": ["safety-argument"],
+      "summary": "Dow Jones/WSJ recap: Anthropic researcher Jacob Coxon quit over self-improving tools; Hubinger put a >10% extinction-in-a-decade figure on the record. By Saturday four lab heads had publicly agreed to slow capability gains. Treat as reporting, not as proof the internals changed.",
+      "why_it_matters": "Keeps the human-cost and disagreement layer next to the press-release layer."
+    }
+  ]
+}
